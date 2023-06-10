@@ -36,7 +36,6 @@
             panel2 = new Panel();
             btnCancel = new Button();
             btnSave = new Button();
-            txtData = new DateTimePicker();
             txtCategoria = new TextBox();
             txtEditora = new TextBox();
             txtAutor = new TextBox();
@@ -98,7 +97,6 @@
             panel2.BackColor = Color.FromArgb(255, 192, 128);
             panel2.Controls.Add(btnCancel);
             panel2.Controls.Add(btnSave);
-            panel2.Controls.Add(txtData);
             panel2.Controls.Add(txtCategoria);
             panel2.Controls.Add(txtEditora);
             panel2.Controls.Add(txtAutor);
@@ -137,14 +135,6 @@
             btnSave.Text = "Salvar";
             btnSave.UseVisualStyleBackColor = true;
             btnSave.Click += button1_Click;
-            // 
-            // txtData
-            // 
-            txtData.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            txtData.Location = new Point(164, 158);
-            txtData.Name = "txtData";
-            txtData.Size = new Size(221, 27);
-            txtData.TabIndex = 10;
             // 
             // txtCategoria
             // 
@@ -262,7 +252,6 @@
         private Label label4;
         private Label label3;
         private Label label2;
-        private DateTimePicker txtData;
         private TextBox txtCategoria;
         private TextBox txtEditora;
         private TextBox txtAutor;

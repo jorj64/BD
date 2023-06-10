@@ -45,6 +45,7 @@
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
+            txtData = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -95,6 +96,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(255, 192, 128);
+            panel2.Controls.Add(txtData);
             panel2.Controls.Add(btnCancel);
             panel2.Controls.Add(btnSave);
             panel2.Controls.Add(txtCategoria);
@@ -184,9 +186,9 @@
             label5.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(3, 161);
             label5.Name = "label5";
-            label5.Size = new Size(159, 23);
+            label5.Size = new Size(154, 23);
             label5.TabIndex = 3;
-            label5.Text = "Data de Publicação";
+            label5.Text = "Ano de Publicação";
             // 
             // label4
             // 
@@ -217,6 +219,14 @@
             label2.Size = new Size(56, 23);
             label2.TabIndex = 0;
             label2.Text = "Título";
+            // 
+            // txtData
+            // 
+            txtData.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtData.Location = new Point(163, 160);
+            txtData.Name = "txtData";
+            txtData.Size = new Size(222, 27);
+            txtData.TabIndex = 13;
             // 
             // AddLivro
             // 
@@ -258,5 +268,6 @@
         private TextBox txtTitulo;
         private Button btnCancel;
         private Button btnSave;
+        private TextBox txtData;
     }
 }

@@ -106,6 +106,7 @@
             verAlunosToolStripMenuItem.Name = "verAlunosToolStripMenuItem";
             verAlunosToolStripMenuItem.Size = new Size(226, 56);
             verAlunosToolStripMenuItem.Text = "Ver Alunos";
+            verAlunosToolStripMenuItem.Click += verAlunosToolStripMenuItem_Click;
             // 
             // emitirLivrosToolStripMenuItem
             // 

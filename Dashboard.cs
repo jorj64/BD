@@ -52,8 +52,14 @@ namespace Login
 
         private void adicionarNovoAlunoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          AdicionarUsuário ast = new AdicionarUsuário();
-          ast.Show();     
+            AdicionarUsuário ast = new AdicionarUsuário();
+            ast.Show();
+        }
+
+        private void verAlunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        VerAlunos vsi = new VerAlunos();
+            vsi.Show();
         }
     }
 }

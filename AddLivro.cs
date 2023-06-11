@@ -68,6 +68,7 @@ namespace Login
                 MessageBox.Show("Informações Salvas.", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtTitulo.Clear();
                 txtAutor.Clear();
+                txtData.Clear();
                 txtEditora.Clear();
                 txtCategoria.Clear();
             }

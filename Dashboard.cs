@@ -19,7 +19,7 @@ namespace Login
 
         private void verLivroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-         VerLivros verLivros = new VerLivros();
+            VerLivros verLivros = new VerLivros();
             verLivros.Show();
         }
 
@@ -33,7 +33,8 @@ namespace Login
                 restrict++;
                 AddLivro abs = new AddLivro();
                 abs.Show();
-            } else
+            }
+            else
             {
                 MessageBox.Show("A página já está aberta");
             }
@@ -46,7 +47,13 @@ namespace Login
                 Application.Exit();
             }
 
-            
+
+        }
+
+        private void adicionarNovoAlunoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+          AdicionarUsuário ast = new AdicionarUsuário();
+          ast.Show();     
         }
     }
 }

@@ -34,6 +34,7 @@
             label1 = new Label();
             pictureBox2 = new PictureBox();
             panel2 = new Panel();
+            txtData = new TextBox();
             btnCancel = new Button();
             btnSave = new Button();
             txtCategoria = new TextBox();
@@ -45,7 +46,6 @@
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
-            txtData = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -61,6 +61,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // panel1
             // 
@@ -113,6 +114,14 @@
             panel2.Size = new Size(411, 351);
             panel2.TabIndex = 2;
             panel2.Paint += panel2_Paint;
+            // 
+            // txtData
+            // 
+            txtData.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtData.Location = new Point(163, 160);
+            txtData.Name = "txtData";
+            txtData.Size = new Size(222, 27);
+            txtData.TabIndex = 13;
             // 
             // btnCancel
             // 
@@ -219,14 +228,6 @@
             label2.Size = new Size(56, 23);
             label2.TabIndex = 0;
             label2.Text = "Título";
-            // 
-            // txtData
-            // 
-            txtData.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            txtData.Location = new Point(163, 160);
-            txtData.Name = "txtData";
-            txtData.Size = new Size(222, 27);
-            txtData.TabIndex = 13;
             // 
             // AddLivro
             // 

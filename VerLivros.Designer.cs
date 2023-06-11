@@ -112,7 +112,7 @@
             BtnRefresh.Name = "BtnRefresh";
             BtnRefresh.Size = new Size(91, 24);
             BtnRefresh.TabIndex = 3;
-            BtnRefresh.Text = "Atualizar";
+            BtnRefresh.Text = "Limpar";
             BtnRefresh.UseVisualStyleBackColor = true;
             BtnRefresh.Click += BtnRefresh_Click;
             // 

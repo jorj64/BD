@@ -76,5 +76,10 @@ namespace Login
                 MessageBox.Show("Por Favor, Preencha Todos os Espaços.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
